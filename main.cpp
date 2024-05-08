@@ -18,7 +18,10 @@ void exercice1()
 	upperChar(name, 0);
 	upperChar(name, 1);
 
-	std::cout << name;
+	std::cout << name << std::endl;
+
+	std::cout << name.front() << std::endl;
+	std::cout << name.at(3) << ", " << name.at(5) << ", " << name.at(7) << std::endl;
 }
 
 
